@@ -211,12 +211,3 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
- window.addEventListener('load', function () {
-
-     setTimeout(function () {
-
-         document.querySelector('.loading-screen').style.display = 'none';
-
-     }, 1100);
-
- });
